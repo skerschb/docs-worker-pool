@@ -4,6 +4,7 @@ const fs = require('fs-extra');
 const retry = require('async-retry');
 const mongo = require('./utils/mongo');
 const workerUtils = require('./utils/utils');
+const jobLoader = require('./utils/config/jobLoader');
 
 // **** IF YOU ARE ADDING A FUNCTION --> IMPORT IT HERE
 // Import job function
